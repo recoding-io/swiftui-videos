@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BD3C212657D4EC002A6CF5 /* Scan_OcrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD3C202657D4EC002A6CF5 /* Scan_OcrApp.swift */; };
+		05BD3C232657D4EC002A6CF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD3C222657D4EC002A6CF5 /* ContentView.swift */; };
+		05BD3C252657D4ED002A6CF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05BD3C242657D4ED002A6CF5 /* Assets.xcassets */; };
+		05BD3C282657D4ED002A6CF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05BD3C272657D4ED002A6CF5 /* Preview Assets.xcassets */; };
+		05BD3C302657D5BD002A6CF5 /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD3C2F2657D5BD002A6CF5 /* ScanData.swift */; };
+		05BD3C342657D717002A6CF5 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD3C332657D717002A6CF5 /* ScannerView.swift */; };
+		05BD3C362657D863002A6CF5 /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD3C352657D863002A6CF5 /* TextRecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05BD3C1D2657D4EC002A6CF5 /* Scan-Ocr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scan-Ocr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BD3C202657D4EC002A6CF5 /* Scan_OcrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan_OcrApp.swift; sourceTree = "<group>"; };
+		05BD3C222657D4EC002A6CF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05BD3C242657D4ED002A6CF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05BD3C272657D4ED002A6CF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05BD3C292657D4ED002A6CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BD3C2F2657D5BD002A6CF5 /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
+		05BD3C332657D717002A6CF5 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		05BD3C352657D863002A6CF5 /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05BD3C1A2657D4EC002A6CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05BD3C142657D4EB002A6CF5 = {
+			isa = PBXGroup;
+			children = (
+				05BD3C1F2657D4EC002A6CF5 /* Scan-Ocr */,
+				05BD3C1E2657D4EC002A6CF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05BD3C1E2657D4EC002A6CF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05BD3C1D2657D4EC002A6CF5 /* Scan-Ocr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05BD3C1F2657D4EC002A6CF5 /* Scan-Ocr */ = {
+			isa = PBXGroup;
+			children = (
+				05BD3C202657D4EC002A6CF5 /* Scan_OcrApp.swift */,
+				05BD3C222657D4EC002A6CF5 /* ContentView.swift */,
+				05BD3C332657D717002A6CF5 /* ScannerView.swift */,
+				05BD3C352657D863002A6CF5 /* TextRecognizer.swift */,
+				05BD3C2F2657D5BD002A6CF5 /* ScanData.swift */,
+				05BD3C242657D4ED002A6CF5 /* Assets.xcassets */,
+				05BD3C292657D4ED002A6CF5 /* Info.plist */,
+				05BD3C262657D4ED002A6CF5 /* Preview Content */,
+			);
+			path = "Scan-Ocr";
+			sourceTree = "<group>";
+		};
+		05BD3C262657D4ED002A6CF5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05BD3C272657D4ED002A6CF5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05BD3C1C2657D4EC002A6CF5 /* Scan-Ocr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BD3C2C2657D4ED002A6CF5 /* Build configuration list for PBXNativeTarget "Scan-Ocr" */;
+			buildPhases = (
+				05BD3C192657D4EC002A6CF5 /* Sources */,
+				05BD3C1A2657D4EC002A6CF5 /* Frameworks */,
+				05BD3C1B2657D4EC002A6CF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scan-Ocr";
+			productName = "Scan-Ocr";
+			productReference = 05BD3C1D2657D4EC002A6CF5 /* Scan-Ocr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05BD3C152657D4EB002A6CF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					05BD3C1C2657D4EC002A6CF5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 05BD3C182657D4EB002A6CF5 /* Build configuration list for PBXProject "Scan-Ocr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05BD3C142657D4EB002A6CF5;
+			productRefGroup = 05BD3C1E2657D4EC002A6CF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05BD3C1C2657D4EC002A6CF5 /* Scan-Ocr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05BD3C1B2657D4EC002A6CF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD3C282657D4ED002A6CF5 /* Preview Assets.xcassets in Resources */,
+				05BD3C252657D4ED002A6CF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05BD3C192657D4EC002A6CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD3C232657D4EC002A6CF5 /* ContentView.swift in Sources */,
+				05BD3C342657D717002A6CF5 /* ScannerView.swift in Sources */,
+				05BD3C362657D863002A6CF5 /* TextRecognizer.swift in Sources */,
+				05BD3C212657D4EC002A6CF5 /* Scan_OcrApp.swift in Sources */,
+				05BD3C302657D5BD002A6CF5 /* ScanData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05BD3C2A2657D4ED002A6CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05BD3C2B2657D4ED002A6CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05BD3C2D2657D4ED002A6CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Scan-Ocr/Preview Content\"";
+				DEVELOPMENT_TEAM = KN3ZJQBK7N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Scan-Ocr/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haaris.Scan-Ocr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05BD3C2E2657D4ED002A6CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Scan-Ocr/Preview Content\"";
+				DEVELOPMENT_TEAM = KN3ZJQBK7N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Scan-Ocr/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haaris.Scan-Ocr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05BD3C182657D4EB002A6CF5 /* Build configuration list for PBXProject "Scan-Ocr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BD3C2A2657D4ED002A6CF5 /* Debug */,
+				05BD3C2B2657D4ED002A6CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05BD3C2C2657D4ED002A6CF5 /* Build configuration list for PBXNativeTarget "Scan-Ocr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BD3C2D2657D4ED002A6CF5 /* Debug */,
+				05BD3C2E2657D4ED002A6CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05BD3C152657D4EB002A6CF5 /* Project object */;
+}
