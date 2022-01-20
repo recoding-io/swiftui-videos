@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CD-One-To-One-Relationship (iOS).xcscheme_^#shared#^_</key>
+		<key>CD_One_To_Many_Relationship (iOS).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>CD-One-To-One-Relationship (macOS).xcscheme_^#shared#^_</key>
+		<key>CD_One_To_Many_Relationship (macOS).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -17,7 +17,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>05BAD2CE2785E24E00BB5B90</key>
+		<key>05C6AA4B2789D06C009FFBE8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
